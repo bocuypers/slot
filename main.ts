@@ -21,15 +21,5 @@ basic.forever(function () {
     }
 })
 basic.forever(function () {
-    if (code == 1) {
-        basic.showLeds(`
-            # . . . .
-            # . . . .
-            # . . . .
-            # . . . .
-            # . . . .
-            `)
-    } else if (code == 0) {
-        basic.showString("c")
-    }
+	
 })
